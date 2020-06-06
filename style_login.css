@@ -1,0 +1,209 @@
+* {
+    margin: 0px; padding: 0px; box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: Arial;
+    
+}
+
+
+#wrapper{
+    width: 448px;
+    margin: 0 auto;
+    border: 1px solid #dadce0;
+    padding: 48px 40px  36px;
+    border-radius: 5px;
+    margin-top: 200px;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 75px;
+    height: 24px;
+}
+
+
+.head_input{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+
+.account{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+
+
+.form_email{
+    padding: 5px 0;
+    margin-top: 32px;
+}
+
+
+
+.input{
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 13px 15px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+}
+
+
+.form_email{
+    position: relative;
+}
+
+
+.label{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 0.3s;
+    z-index: -1;
+    color: #6e7074;
+}
+
+
+.input{
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+    width: 100%;
+}
+
+
+.input:focus{
+    
+    border: 2px solid #4285f4;
+}
+
+
+.input:focus ~ .label, .input:not(:placeholder-shown) ~ .label{
+    top: -2px;
+    font-size: 12px;
+    background-color: white;
+    z-index: 2;
+    color: #4285f4;
+    padding: 0 5px;
+}
+
+.forgot_password{
+    color: #1a73e8;
+    font-weight: 500;
+    letter-spacing: .25px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+
+.guesr_acc{
+    color: #5f6368;
+    font-size: 14px;
+    margin-top: 32px;
+}
+
+
+.guesr_acc a{
+    color: #1a73e8;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0;
+}
+
+
+.button a{
+    font-size: 14px;
+    color: #1a73e8;
+}
+
+
+.btn{
+    background-color: #1a73e8;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    background-color: #4087e4;
+}
+
+
+
+#footer{
+    margin: 24px auto 0;
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer_left{
+    margin-left: 20px;
+    font-size: 12px;
+    color: #202124;
+}
+
+
+
+
+.footer_right ul li{
+    display: inline-block;
+}
+
+
+
+.footer_right ul li:nth-of-type(2){
+    margin 0 12px;
+}
+
+.footer_right ul li a{
+    padding: 6px 16px;
+    border-radius: 4px;
+    color: #757575;
+    font-size: 12px;
+}
+
+
+.footer_right ul li a:focus{
+    background-color: #b9b5b5;;
+}
